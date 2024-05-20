@@ -1,3 +1,136 @@
+/* ✅ Topic and Content */
+/* ✅ Style Tile */
+/* ✅ Setup on GitHub */
+/* ✅ Setup on Netlify */
+/* 
+https://www.figma.com/color-wheel/
+ ✅ CSS Variables
+*/
+/* ✅ Box Model */
+/* ✅ Float Property */
+/* ✅ Position Properties */
+/* ✅ Background Properties */
+
+/* ✅ Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
+/* ✅  Style Guide via CSS Variables*/
+
+:root {
+  --color1: #CE1D1F;
+  --color2: #8F1112;
+  --color3: #550607;
+  --primaryfont: "Bebas Neue", sans-serif;
+}
+
+
 body {
-    background: #e565ff
+  
+  
+background: #e52d27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--color2);
+  position: fixed;
+  border-bottom: 5px dotted var(--color3);
+}
+
+li {
+  color: var(--color2);
+}
+
+blockquote {
+  font-family: "Oswald", sans-serif;
+  margin-top: 30px;
+}
+
+main {
+  width: 54%;
+  margin: 0 auto;
+  padding: 53px;
+  
+  background: #df8c8dcc;
+}
+
+span {
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--color1);
+  background: var(--color3);
+  margin: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 4rem;
+  float: left;
+  
+}
+
+/* Parent */
+main {
+  margin-top: 50px;
+  position: relative;
+  
+  border-left: 20px solid var(--color3);
+  border-bottom: 20px solid var(--color3);
+    border-top: 20px solid var(--color2);
+  border-right: 20px solid var(--color2);
+}
+
+/* Child */
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--color3);
+  text-align: right;
+  background: #ffd9d99e;
+  padding: 8px;
+  top: 18px;
+  left: 20px;
+  position: absolute;
+  margin: 0;
+}
+
+
+ul {
+  font-family: "Bebas Neue", sans-serif;
+  background: #000000c2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 200px;
+  position: relative;
+  right: -200px;
+  bottom: -23px;
+}
+
+.li1 {
+  color: #0077C0;
+}
+
+.li2 {
+  color: #FDB927;
+}
+
+.li3 {
+  color: #98002E;
+}
+.li4 {
+  color: #E56020;
+}
+
+.li5 {
+  color: #860038;
+}
+
+.li6 {
+  color:  #007A33;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
 }
