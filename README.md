@@ -10,3 +10,6 @@ A web project to experiment with ONLY CSS typography.
 * Typography
 * Box Model
 * CSS Variables
+
+### Sources
+https://en.wikipedia.org/wiki/Shaquille_O'Neal
